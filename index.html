@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hans Korea Beauty | Johor Bahru • First Visit FREE</title>
+  <meta name="description" content="Hans Korea Beauty in Permas Jaya, Johor Bahru. Authentic Korean skincare & dermaplaning. Border QR exclusive — your first visit is FREE. Open daily 11:00–19:00." />
+  <meta name="format-detection" content="telephone=no" />
+  <meta property="og:title" content="Hans Korea Beauty | First Visit FREE" />
+  <meta property="og:description" content="Authentic Korean skincare in Johor Bahru. Scan at the border • Book on WhatsApp • First visit FREE." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://dummyimage.com/1200x630/eeeeee/111111&text=Hans+Korea+Beauty" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%23000'/%3E%3Ctext x='50' y='60' font-size='56' text-anchor='middle' fill='%23fff' font-family='Arial, Helvetica, sans-serif'%3EH%3C/text%3E%3C/svg%3E" />
+  <style>
+    :root{
+      --bg:#0b0c0f; --card:#111318; --muted:#8b93a2; --text:#f7f7fb; --brand:#00d4ff; --brand-2:#6df2b1; --accent:#ffe28a;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%;background:var(--bg);color:var(--text);font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Noto Sans, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji"}
+    a{color:inherit;text-decoration:none}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    header{position:sticky;top:0;z-index:40;background:linear-gradient(180deg, rgba(11,12,15,.9), rgba(11,12,15,.6) 60%, transparent)}
+    .nav{display:flex;gap:16px;align-items:center;justify-content:space-between;padding:12px 24px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .brand .logo{width:36px;height:36px;border-radius:12px;background:linear-gradient(135deg,var(--brand),var(--brand-2));display:grid;place-items:center;font-weight:800;color:#051922}
+    .pill{border:1px solid #2a2f3a;border-radius:999px;padding:6px 12px;color:var(--muted);font-size:12px;}
+    .lang{display:flex;gap:6px;align-items:center}
+    .lang button{background:#1a1d25;border:1px solid #2a2f3a;color:var(--text);padding:6px 10px;border-radius:10px;cursor:pointer}
+    .lang button.active{border-color:var(--brand);box-shadow:0 0 0 2px rgba(0,212,255,.2)}
+    .btn{display:inline-flex;align-items:center;gap:10px;padding:12px 18px;border-radius:14px;border:1px solid #2a2f3a;background:linear-gradient(180deg,#171a22,#12151b);color:#fff;font-weight:600}
+    .btn.primary{background:linear-gradient(180deg,var(--brand),#1aa7c5);color:#051922;border:none}
+    .btn.whatsapp{background:#25D366;color:#061e10;border:none}
+    .hero{padding:40px 24px 12px}
+    .grid{display:grid;gap:18px}
+    .hero-card{display:grid;gap:12px;background:linear-gradient(180deg,#10131a,#0d0f14);border:1px solid #232733;border-radius:24px;padding:24px;position:relative;overflow:hidden}
+    .badge{position:absolute;right:16px;top:16px;background:linear-gradient(135deg,#ffe28a,#ffd05a);color:#1a1200;padding:8px 12px;border-radius:999px;font-weight:800}
+    h1{font-size:clamp(28px,5vw,48px);line-height:1.05;margin:0}
+    p{color:#cfd6e6;line-height:1.6;margin:0}
+    .hero .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:12px}
+    .note{font-size:12px;color:#9aa3b8}
+    .cards{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+    .card{grid-column:span 12;background:linear-gradient(180deg,#0f1218,#0c0e13);border:1px solid #232733;border-radius:20px;padding:18px}
+    .card h3{margin:0 0 8px 0;font-size:18px}
+    .icon{font-size:18px}
+    @media (min-width:720px){
+      .grid-2{grid-template-columns:1.2fr .9fr}
+      .card{grid-column:span 6}
+    }
+    .services{display:grid;gap:12px}
+    .service{display:flex;gap:12px;align-items:flex-start;padding:14px;border:1px dashed #2a2f3a;border-radius:16px}
+    .service strong{display:block}
+    .cta-bar{position:fixed;left:0;right:0;bottom:0;z-index:50;display:flex;gap:8px;padding:10px;background:linear-gradient(180deg,transparent,rgba(4,6,10,.9) 30%)}
+    .cta-bar .inner{display:flex;gap:8px;width:100%;max-width:900px;margin:0 auto}
+    .map{border:0;width:100%;height:360px;border-radius:18px}
+    footer{padding:40px 24px;color:#9aa3b8}
+    .kicker{color:var(--muted);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:12px}
+    .offer-chip{display:inline-flex;align-items:center;gap:8px;border:1px solid #273140;background:#0b1520;padding:8px 12px;border-radius:14px;color:#9fd0ff}
+    .hidden{display:none}
+  </style>
+  <script>
+    // Simple i18n handling (EN / ZH-CN)
+    const i18n = {
+      en: {
+        nav_offer: "Border QR Offer",
+        hero_title: "Authentic Korean skincare in Johor Bahru",
+        hero_sub: "Scan at the border • Walk in or book on WhatsApp • <b>First visit is FREE</b>",
+        offer_badge: "FIRST VISIT FREE",
+        offer_chip: "Border QR verified",
+        cta_book: "Book on WhatsApp",
+        cta_call: "Call the Salon",
+        why_title: "Why Hans Korea Beauty",
+        why_1: "Korean-developed skinplaning / dermaplaning expertise",
+        why_2: "English & Chinese speaking therapists",
+        why_3: "Premium aesthetic skincare, curated from Korea",
+        why_4: "Near the Johor Bahru–Singapore border",
+        how_title: "How to redeem your free first visit",
+        how_1: "Show this page (QR offer) at reception",
+        how_2: "Choose an Express Facial or Pro Skin Analysis",
+        how_3: "New customers only. Weekdays 11:00–19:00",
+        services_title: "Popular Services",
+        s1_h: "Skinplaning / Dermaplaning",
+        s1_p: "Removes dull surface skin for instant glow & better product absorption.",
+        s2_h: "Hydra Glow Facial",
+        s2_p: "Deep cleanse, gentle exfoliation, and hydration boost for radiant skin.",
+        s3_h: "Korean Nail Care",
+        s3_p: "Clean prep, soft-gel finishes, and trending designs.",
+        visit_title: "Visit Us",
+        addr_label: "Address",
+        hours_label: "Hours",
+        hours_txt: "Daily 11:00–19:00",
+        dir_btn: "Directions",
+        fineprint: "* Free first visit applies to Express Facial (20–25 min) or Professional Skin Analysis. One redemption per person. ID required. Subject to availability.",
+        footer: "© "+new Date().getFullYear()+" Hans Korea Beauty. All rights reserved.",
+      },
+      zh: {
+        nav_offer: "边境二维码优惠",
+        hero_title: "新山正宗韩式皮肤管理",
+        hero_sub: "在边境扫码 • 可直接到店或WhatsApp预约 • <b>首次到店免费</b>",
+        offer_badge: "首次免费",
+        offer_chip: "已验证的边境二维码",
+        cta_book: "WhatsApp 预约",
+        cta_call: "致电门店",
+        why_title: "为什么选 Hans Korea Beauty",
+        why_1: "韩方开发的Skinplaning/刮皮护理技术",
+        why_2: "员工可用英语与中文沟通",
+        why_3: "严选韩国高端护肤品",
+        why_4: "临近新山—新加坡边境",
+        how_title: "如何兑换首次免费",
+        how_1: "到前台出示本页面（二维码优惠）",
+        how_2: "二选一：快速面部护理 或 专业皮肤检测",
+        how_3: "仅限新顾客。周一至周日 11:00–19:00",
+        services_title: "热门项目",
+        s1_h: "Skinplaning / 刮皮护理",
+        s1_p: "温和去除暗沉角质，提升吸收与即刻光泽。",
+        s2_h: "水润焕亮护理",
+        s2_p: "深层清洁、细致焕肤与补水，为肌肤注入光泽。",
+        s3_h: "韩式美甲",
+        s3_p: "精致护理、软胶封层与流行设计。",
+        visit_title: "到店信息",
+        addr_label: "地址",
+        hours_label: "营业时间",
+        hours_txt: "每日 11:00–19:00",
+        dir_btn: "地图导航",
+        fineprint: "* 首次免费适用于快速面部护理（20–25分钟）或专业皮肤检测。每人限领一次。需出示证件。名额有限。",
+        footer: "© "+new Date().getFullYear()+" Hans Korea Beauty. 版权所有。",
+      }
+    };
+
+    function setLang(l){
+      document.documentElement.setAttribute('lang', l === 'zh' ? 'zh-CN' : 'en');
+      for(const el of document.querySelectorAll('[data-i18n]')){
+        const k = el.getAttribute('data-i18n');
+        el.innerHTML = i18n[l][k];
+      }
+      for(const el of document.querySelectorAll('[data-i18n-ph]')){
+        const k = el.getAttribute('data-i18n-ph');
+        el.setAttribute('placeholder', i18n[l][k]);
+      }
+      document.querySelectorAll('.lang button').forEach(b=>b.classList.remove('active'));
+      document.querySelector(`[data-lang="${l}"]`).classList.add('active');
+      localStorage.setItem('lang', l);
+    }
+
+    function init(){
+      const params = new URLSearchParams(location.search);
+      const qr = params.get('qr');
+      if(qr){
+        document.querySelector('#offer-chip').classList.remove('hidden');
+      }
+      const saved = localStorage.getItem('lang') || (navigator.language||'en').startsWith('zh') ? 'zh' : 'en';
+      setLang(saved);
+    }
+
+    document.addEventListener('DOMContentLoaded', init);
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "Hans Korea Beauty",
+    "telephone": "+60 11-2311 5187",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "48-G, Jalan Permas 10/7, Bandar Baru Permas Jaya",
+      "addressLocality": "Masai",
+      "addressRegion": "Johor",
+      "postalCode": "81750",
+      "addressCountry": "MY"
+    },
+    "openingHours": "Mo-Su 11:00-19:00",
+    "sameAs": [
+      "https://www.facebook.com/hanskoreabeauty/",
+      "https://www.instagram.com/hansbeauty.jb/"
+    ],
+    "image": "https://dummyimage.com/1200x630/eeeeee/111111&text=Hans+Korea+Beauty",
+    "url": "https://your-domain.example/hans-korea-beauty"
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <nav class="nav container">
+      <div class="brand">
+        <div class="logo">HK</div>
+        <div>
+          <div style="font-weight:800;">Hans Korea Beauty</div>
+          <div class="pill" data-i18n="nav_offer">Border QR Offer</div>
+        </div>
+      </div>
+      <div class="lang">
+        <button data-lang="en" onclick="setLang('en')">EN</button>
+        <button data-lang="zh" onclick="setLang('zh')">中文</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero grid grid-2">
+      <div class="hero-card">
+        <div class="badge" data-i18n="offer_badge">FIRST VISIT FREE</div>
+        <span class="kicker" id="offer-chip" class="offer-chip hidden hidden" style="margin-bottom:8px"><span class="offer-chip hidden" id="offer-chip-inner" data-i18n="offer_chip">Border QR verified</span></span>
+        <h1 data-i18n="hero_title">Authentic Korean skincare in Johor Bahru</h1>
+        <p data-i18n="hero_sub">Scan at the border • Walk in or book on WhatsApp • <b>First visit is FREE</b></p>
+        <div class="cta">
+          <a class="btn primary" href="https://wa.me/601123115187?text=Hi%20Hans%20Korea%20Beauty!%20I%20scanned%20the%20border%20QR%20and%20want%20to%20book%20my%20FREE%20first%20visit.%20Name:%20%5Byour%20name%5D%20%7C%20Preferred%20date/time:%20%5Bdd%2Fmm%5D%20%5Btime%5D" target="_blank" rel="noopener" data-i18n="cta_book">Book on WhatsApp</a>
+          <a class="btn" href="tel:+601123115187" data-i18n="cta_call">Call the Salon</a>
+        </div>
+        <p class="note" data-i18n="fineprint">* Free first visit applies to Express Facial (20–25 min) or Professional Skin Analysis. One redemption per person. ID required. Subject to availability.</p>
+      </div>
+      <div class="hero-card">
+        <div class="cards">
+          <div class="card">
+            <h3 data-i18n="why_title">Why Hans Korea Beauty</h3>
+            <ul>
+              <li data-i18n="why_1">Korean-developed skinplaning / dermaplaning expertise</li>
+              <li data-i18n="why_2">English & Chinese speaking therapists</li>
+              <li data-i18n="why_3">Premium aesthetic skincare, curated from Korea</li>
+              <li data-i18n="why_4">Near the Johor Bahru–Singapore border</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3 data-i18n="how_title">How to redeem your free first visit</h3>
+            <ol>
+              <li data-i18n="how_1">Show this page (QR offer) at reception</li>
+              <li data-i18n="how_2">Choose an Express Facial or Pro Skin Analysis</li>
+              <li data-i18n="how_3">New customers only. Weekdays 11:00–19:00</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cards" aria-label="Services">
+      <div class="card" style="grid-column:span 12">
+        <h3 data-i18n="services_title">Popular Services</h3>
+        <div class="services">
+          <div class="service">
+            <div class="icon">✨</div>
+            <div>
+              <strong data-i18n="s1_h">Skinplaning / Dermaplaning</strong>
+              <div data-i18n="s1_p">Removes dull surface skin for instant glow & better product absorption.</div>
+            </div>
+          </div>
+          <div class="service">
+            <div class="icon">💧</div>
+            <div>
+              <strong data-i18n="s2_h">Hydra Glow Facial</strong>
+              <div data-i18n="s2_p">Deep cleanse, gentle exfoliation, and hydration boost for radiant skin.</div>
+            </div>
+          </div>
+          <div class="service">
+            <div class="icon">💅</div>
+            <div>
+              <strong data-i18n="s3_h">Korean Nail Care</strong>
+              <div data-i18n="s3_p">Clean prep, soft-gel finishes, and trending designs.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cards" aria-label="Visit">
+      <div class="card" style="grid-column:span 12">
+        <h3 data-i18n="visit_title">Visit Us</h3>
+        <div class="grid" style="gap:16px">
+          <div>
+            <div style="margin-bottom:8px;font-weight:700" data-i18n="addr_label">Address</div>
+            <div>48-G, Jalan Permas 10/7, Bandar Baru Permas Jaya, 81750 Masai, Johor, Malaysia</div>
+            <div style="margin-top:12px;font-weight:700" data-i18n="hours_label">Hours</div>
+            <div data-i18n="hours_txt">Daily 11:00–19:00</div>
+            <div style="margin-top:14px;display:flex;gap:8px;flex-wrap:wrap">
+              <a class="btn" data-i18n="dir_btn" target="_blank" rel="noopener" href="https://www.google.com/maps?q=48-G%2C+Jalan+Permas+10%2F7%2C+Bandar+Baru+Permas+Jaya%2C+81750+Masai%2C+Johor%2C+Malaysia">Directions</a>
+              <a class="btn whatsapp" target="_blank" rel="noopener" href="https://wa.me/601123115187?text=Hi%20Hans%20Korea%20Beauty!%20I%20want%20to%20book.%20%5BName%5D%20%7C%20%5BDate%5D%20%5BTime%5D">WhatsApp</a>
+              <a class="btn" href="https://www.facebook.com/hanskoreabeauty/" target="_blank" rel="noopener">Facebook</a>
+              <a class="btn" href="https://www.instagram.com/hansbeauty.jb/" target="_blank" rel="noopener">Instagram</a>
+            </div>
+          </div>
+          <iframe class="map" loading="lazy" allowfullscreen src="https://www.google.com/maps?q=48-G%2C+Jalan+Permas+10%2F7%2C+Bandar+Baru+Permas+Jaya%2C+81750+Masai%2C+Johor%2C+Malaysia&output=embed"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="cta-bar">
+    <div class="inner">
+      <a class="btn primary" style="flex:1;justify-content:center" href="https://wa.me/601123115187?text=Hi%20Hans%20Korea%20Beauty!%20I%20scanned%20the%20border%20QR%20and%20want%20to%20book%20my%20FREE%20first%20visit.%20Name:%20%5Byour%20name%5D%20%7C%20Preferred%20date/time:%20%5Bdd%2Fmm%5D%20%5Btime%5D" target="_blank" rel="noopener" data-i18n="cta_book">Book on WhatsApp</a>
+      <a class="btn" style="flex:1;justify-content:center" href="tel:+601123115187" data-i18n="cta_call">Call the Salon</a>
+    </div>
+  </div>
+
+  <footer class="container">
+    <small data-i18n="footer">© 2025 Hans Korea Beauty. All rights reserved.</small>
+  </footer>
+</body>
+</html>
